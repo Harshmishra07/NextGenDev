@@ -172,20 +172,26 @@
             <div class="center">
             <div class="wrapper">
                 <div class="project-item bg1">
-                    <img src="images/music.svg" alt="">
-                    <h2>Music PLayer</h2>
-                    <p>A Music Player Developed by the help of HTML CSS JS</p>
+                    <a href="https://mmusicplayer.netlify.app/">
+                        <img src="images/music.svg" alt="music player">
+                        <h2>Music PLayer</h2>
+                        <p>A Music Player Developed by the help of HTML CSS JS</p>
+                    </a>
                 </div>
 
                 <div class="project-item bg2">
-                    <img src="images/calc-.svg" alt="">
-                    <h2>Calculator</h2>
-                    <p>Calc to Perform Basic Mathematical Operations</p>
+                    <a href="https://calc-calculator.netlify.app">
+                        <img src="images/calc-.svg" alt="calc">
+                        <h2>Calculator</h2>
+                        <p>Calc to Perform Basic Mathematical Operations</p>
+                    </a>
                 </div>
                 <div class="project-item bg3">
-                    <img src="images/demon.jpeg" alt="">
-                    <h2>Demon Slayer Verse</h2>
-                    <p>A website which contains details about An Anime names <span>Demon Slayer</span></p>
+                    <a href="https://demonslayerverse.netlify.app/">
+                        <img src="images/demon.jpeg" alt="demon slayer">
+                        <h2>Demon Slayer Verse</h2>
+                        <p>A website which contains details about An Anime names <span>Demon Slayer</span></p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -194,19 +200,21 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="b81b72eb-dd79-489a-be19-3ae261c8c224">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="email" placeholder="Email" name="email" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Mobile Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="number" placeholder="Mobile Number" name="number">
+                    <input type="text" placeholder="Subject" name="subject" required>
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id="textarea" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="hidden" name="redirect" value="https://thanksformessaging.netlify.app/">
                 <input type="submit" value="Submit" class="btn">
             </div>
         </form>
