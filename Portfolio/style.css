@@ -439,6 +439,9 @@ span{
     background-size: cover;
     background-image: url("images/landing.png");
 }
+.wrapper a{
+    color: var(--text-color);
+}
 .projects-box{
     background-size: cover;
     display: flex;
