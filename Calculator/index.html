@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+<!-------------------------------------------- Main Body opening -------------------------------------------->
+    <div class="calculator">
+<!----------------------------------------------- Dispaly open ---------------------------------------------->
+        <div class="display">
+            <input type="text" id="inputBox" value="0" placeholder="0" disabled/>
+        </div>
+<!----------------------------------------------- Dispaly close --------------------------------------------->
+<!-------------------------------------------- Input Buttons open-------------------------------------------->
+        <div class="row">
+            <button type="button" class="opr">AC</button>
+            <button type="button" class="opr">DEL</button>
+            <button type="button" class="opr">%</button>
+            <button type="button" class="opr">/</button>
+        </div>
+        <div class="row">
+            <button type="button" class="opr">(</button>
+            <button type="button" class="opr">)</button>
+            <button type="button" class="opr" id="x2">X<sup>2</sup></button>
+            <button type="button" class="opr" id="x3">X<sup>3</sup></button>
+        </div>
+
+        <div class="row">
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button" class="opr">*</button>
+        </div>
+
+        <div class="row">
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button" class="opr">+</button>
+        </div>
+
+        <div class="row">
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button" class="opr">-</button>
+        </div>
+
+        <div class="row">
+            <button type="button" id="plusMinus">&#xB1;</button> <!-- &#xB1; is code for plus minus -->
+            <button type="button">0</button>
+            <button type="button">.</button>
+            <button type="button" id="eqBtn">=</button>
+        </div>
+<!-------------------------------------------- Input Buttons close------------------------------------------->
+
+    </div>
+<!-------------------------------------------- Main Body opening -------------------------------------------->
+    <script src="script.js"></script>
+</body>
+</html>
